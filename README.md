@@ -27,4 +27,4 @@ The name is Hocky, Hocky Yudhiono 🚀
 
 <p style="text-align: justify;">I had experiences in software engineering, database, and full-stack web developing 🗺. I learned from my University through courses projects and personal projects I've developed during my free time 💪🏻. I also have experience making problem sets and test cases for programming problems, like those usually used by the company to do interview tests! 💯</p>
 
-I speak Golang, C++, Java, Python, SQL, and I can learn other programming languages in s p e e d ⚡️.
+<p style="text-align: justify;">I speak Golang, C++, Java, Python, SQL, and I can learn other programming languages in s p e e d ⚡️.</p>
