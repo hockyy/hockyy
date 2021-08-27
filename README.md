@@ -1,8 +1,10 @@
 
 
 <h1 align='center'> Hello, fellow stalkers! 🍀</h1>
-<p align='center' style='font-family:Comic Sans MS'>
-The name is Hocky, Hocky Yudhiono 🚀
+<p align='center'>
+  <samp>
+    The name is Hocky, Hocky Yudhiono 🚀
+  </samp>
 </p>
 <p align="center">
 <img src="README.assets/felix-argyle.gif" width="200px">
