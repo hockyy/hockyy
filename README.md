@@ -5,8 +5,9 @@
 The name is Hocky, Hocky Yudhiono 🚀
 </p>
 <p align="center">
-<img src="README.assets/felix-argyle.gif" style="border-radius:25%; border: 5px solid #69aaff;" width="200px">
+<img src="README.assets/felix-argyle.gif" width="200px">
 </p>
+
 
 <p align='center'><a href="https://hockyy.com/"><img src="https://img.shields.io/badge/-Who%20is%20Hocky-purple?logo=about.me&amp;logoWidth=10&amp;logoColor=white&amp;style=for-the-badge" alt="About Me Badge"></a>  <a href="https://codeforces.com/profile/hocky"><img src="https://img.shields.io/badge/-CodeForces-yellow?logo=codeforces&amp;logoWidth=10&amp;logoColor=white&amp;style=for-the-badge" alt="Codeforces Badge"></a>  <a href="https://gitlab.com/hockyy"><img src="https://img.shields.io/badge/-Gitlab-orange?logo=codeforces&amp;logoWidth=10&amp;logoColor=white&amp;style=for-the-badge" alt="Gitlab Badge"></a> </p> <hr>
 
