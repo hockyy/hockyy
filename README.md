@@ -26,8 +26,4 @@
 
 <hr>
 
-<p style="text-align: justify;">I'm Hocky Yudhiono 👋. I'm 19 years old 👼🏻. I've started coding since I was 13 ⌨️. I started my journey through some programming and problem-solving competitions, and luckily, I was given a chance to study at the University of Indonesia 🎓.</p>
-
-<p style="text-align: justify;">I had experiences in software engineering, database, and full-stack web developing 🗺. I learned from my University through courses projects and personal projects I've developed during my free time 💪🏻. I also have experience making problem sets and test cases for programming problems, like those usually used by the company to do interview tests! 💯</p>
-
-<p style="text-align: justify;">I speak Golang, C++, Java, Python, SQL, and I can learn other programming languages in s p e e d ⚡️.</p>
+<p style="text-align: justify;">I'm Hocky Yudhiono 👋. I'm 19 years old 👼🏻. I've started coding since I was 13 ⌨️. I started my journey through some programming and problem-solving competitions, and luckily, I was given a chance to study at the University of Indonesia 🎓. I had experiences in software engineering, mobile-app, database, and full-stack web developing 🗺. I learned from my University through courses projects and personal projects I've developed during my free time 💪🏻. I also have experience making problem sets and test cases for programming problems, like those usually used by the company to do interview tests 💯. I speak Golang, C++, Java, Python, SQL, and I really love to learn other programming languages!</p>
