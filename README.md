@@ -11,7 +11,7 @@
 </p>
 
 
-<p align='center'><a href="https://hockyy.com/"><img src="https://img.shields.io/badge/-Who%20is%20Hocky-purple?logo=about.me&amp;logoWidth=10&amp;logoColor=white&amp;style=for-the-badge" alt="About Me Badge"></a>  <a href="https://codeforces.com/profile/hocky"><img src="https://img.shields.io/badge/-CodeForces-yellow?logo=codeforces&amp;logoWidth=10&amp;logoColor=white&amp;style=for-the-badge" alt="Codeforces Badge"></a>  <a href="https://gitlab.com/hocky"><img src="https://img.shields.io/badge/-Gitlab-orange?logo=codeforces&amp;logoWidth=10&amp;logoColor=white&amp;style=for-the-badge" alt="Gitlab Badge"></a> </p> <hr>
+<p align='center'><a href="https://hocky.id/"><img src="https://img.shields.io/badge/-Who%20is%20Hocky-purple?logo=about.me&amp;logoWidth=10&amp;logoColor=white&amp;style=for-the-badge" alt="About Me Badge"></a>  <a href="https://codeforces.com/profile/hocky"><img src="https://img.shields.io/badge/-CodeForces-yellow?logo=codeforces&amp;logoWidth=10&amp;logoColor=white&amp;style=for-the-badge" alt="Codeforces Badge"></a>  <a href="https://gitlab.com/hocky"><img src="https://img.shields.io/badge/-Gitlab-orange?logo=codeforces&amp;logoWidth=10&amp;logoColor=white&amp;style=for-the-badge" alt="Gitlab Badge"></a> </p> <hr>
 
 <p align='center' style='font-family:Comic Sans MS'>
 🌏 Pontianak, Indonesia <br>
