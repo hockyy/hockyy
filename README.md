@@ -15,7 +15,7 @@
 
 <p align='center' style='font-family:Comic Sans MS'>
 🌏 Pontianak, Indonesia <br>
-📚 Computer Science, 4th year, University of Indonesia<br>
+📚 Bachelor of Computer Science, Universitas Indonesia<br>
 🖥 Software Engineer, Full-Stack Developer<br>
 </p>
 
