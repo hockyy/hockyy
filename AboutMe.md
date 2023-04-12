@@ -21,7 +21,7 @@ Hi! My name is Hocky Yudhiono, people mostly call me Hocky with the calling nick
 
 - Used to have quite a long hair, but was cut in early 2022 (chest long), I like plushies as well, I name all of them .🐅. The left one is **Gido**, The small one is **Fugi**, they share the common surname, **Binostrovalte**. Doesn't have any specific meaning btw, just gibberish 😂.
 
-<img src="./AboutMe.assets/image-20230412104926694.png" alt="image-20230412104926694" style="zoom: 33%;" />
+<img src="./AboutMe.assets/image-20230412104926694.png" alt="image-20230412104926694" style="height: 300px" />
 
 - I was born on August 24th, 2002, anyone sharing the same birthday as me 🐎?
 - I am not a picky eater, I eat basically anything from spicy, vegetable, sweets, bitter, chewy. You can see me as an omnivorous bear 🐻.
@@ -34,7 +34,7 @@ Hi! My name is Hocky Yudhiono, people mostly call me Hocky with the calling nick
 
 I have 2 older sisters, my eldest sister is a medical doctor, currently taking her Pediatric Specialist (Dokter Anak) education. The second one studied Pharmacy 💊. My father is retired, he spents his day doing karaoke and gardening. My mother likes to read and currently studying languages as well 😱. We love to travel, when we all have free time, visiting neigboring countries and/or places in Indonesia is a common thing to do. 
 
-<img src="./AboutMe.assets/image-20230412110810577.png" alt="image-20230412110810577" style="zoom: 25%;" />
+<img src="./AboutMe.assets/image-20230412110810577.png" alt="image-20230412110810577" style="width: 500px" />
 
 ## Programming Life
 
@@ -62,13 +62,13 @@ I do competitive programming, I like to solve algorithmic problems, and love to 
 - Favorite personal projects:
 
   - **PeerToCP**, with Electron.js, WebRTC. A real time collaboration coding desktop IDE which allows you to share IDE and handle disconnection/offline issue.
-    - <img src="./AboutMe.assets/image-20221122001647564.png" alt="image-20221122001647564" style="zoom: 33%;" />
+    - <img src="./AboutMe.assets/image-20221122001647564.png" alt="image-20221122001647564" style="width: 500px" />
   - [**Ajaib Crypto**](https://ristek.link/ajaib). a cryptocurrency platform, made with React Native (mobile apps) and Express for the backend server. This is a 7 man projects, but it's quite fun to do it. 
-    - <img src="./AboutMe.assets/image-20230412112322346.png" alt="image-20230412112322346" style="zoom: 25%;" />
+    - <img src="./AboutMe.assets/image-20230412112322346.png" alt="image-20230412112322346" style="width: 500px" />
 
   - [Miteiru](https://github.com/hockyy/miteiru), a video player which enhance the experience for Japanese subtitles. It adds a dictionary, sentence analysis and parser. Built with Electron.js.
-    - <img src="./AboutMe.assets/image-20230412112949332.png" alt="image-20230412112949332" style="zoom:33%;" />
-    - <img src="./AboutMe.assets/image-20230412113018770.png" alt="image-20230412113018770" style="zoom: 50%;" />
+    - <img src="./AboutMe.assets/image-20230412112949332.png" alt="image-20230412112949332" style="height: 300px" />
+    - <img src="./AboutMe.assets/image-20230412113018770.png" alt="image-20230412113018770" style="width: 500px"/>
   - [Dungeons and Dracode](https://dnd.hocky.id/), a grinding game which in game currency can be earned by solving programming problems.
-    - <img src="./AboutMe.assets/image-20230412112737859.png" alt="image-20230412112737859" style="zoom:33%;" />
-    - <img src="./AboutMe.assets/image-20230412112810212.png" alt="image-20230412112810212" style="zoom:33%;" />
+    - <img src="./AboutMe.assets/image-20230412112737859.png" alt="image-20230412112737859" style="width: 500px" />
+    - <img src="./AboutMe.assets/image-20230412112810212.png" alt="image-20230412112810212" style="width: 500px"/>
