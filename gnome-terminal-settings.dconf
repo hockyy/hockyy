@@ -1,0 +1,9 @@
+[legacy]
+theme-variant='light'
+
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(253,246,227)'
+cursor-shape='ibeam'
+foreground-color='rgb(101,123,131)'
+use-theme-colors=false
+visible-name='happy'
