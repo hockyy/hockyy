@@ -1,0 +1,148 @@
+[user]
+    name = Hocky Yudhiono
+    email = hocky.yudhiono@gmail.com
+
+[core]
+    editor = vim
+    whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+    excludesfile = ~/.gitignore_global
+    autocrlf = input
+    pager = less -r
+    # Make `git rebase` safer on macOS
+    trustctime = false
+
+[init]
+    defaultBranch = main
+
+[color]
+    ui = auto
+    branch = auto
+    diff = auto
+    status = auto
+
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = red
+
+[alias]
+    # Basic shortcuts
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
+    cp = cherry-pick
+    cl = clone
+    diff = diff --word-diff
+    
+    # Branch operations
+    bra = branch -a
+    brd = branch -d
+    brD = branch -D
+    
+    # Commit operations
+    ca = commit -a
+    cm = commit -m
+    amend = commit --amend
+    undo = reset HEAD~1 --soft
+    
+    # Logging and history
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+    last = log -1 HEAD
+    hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+    
+    # Show changes
+    dc = diff --cached
+    ds = diff --staged
+    
+    # Stash operations
+    save = stash push
+    pop = stash pop
+    sl = stash list
+    sa = stash apply
+    
+    # Remote operations
+    f = fetch
+    fo = fetch origin
+    po = push origin
+    plo = pull origin
+    
+    # Rebase operations
+    rb = rebase
+    rba = rebase --abort
+    rbc = rebase --continue
+    rbi = rebase -i
+    
+    # Reset operations
+    r = reset
+    r1 = reset HEAD^
+    r2 = reset HEAD^^
+    rh = reset --hard
+    rh1 = reset HEAD^ --hard
+    
+    # Utility
+    tags = tag -l
+    branches = branch -a
+    remotes = remote -v
+    contributors = shortlog --summary --numbered
+    aliases = config --get-regexp alias
+    
+    # Clean up
+    cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop\\|main' | xargs -n 1 git branch -d"
+
+[push]
+    default = simple
+    followTags = true
+
+[pull]
+    rebase = false
+
+[merge]
+    tool = vimdiff
+    conflictstyle = diff3
+
+[diff]
+    tool = vimdiff
+    colorMoved = default
+
+[difftool]
+    prompt = false
+
+[help]
+    autocorrect = 1
+
+[credential]
+    helper = cache --timeout=3600
+
+[url "git@github.com:"]
+    insteadOf = "gh:"
+    pushInsteadOf = "github:"
+    pushInsteadOf = "git://github.com/"
+
+[url "git@gist.github.com:"]
+    insteadOf = "gst:"
+    pushInsteadOf = "gist:"
+    pushInsteadOf = "git://gist.github.com/"
+
+[fetch]
+    prune = true
+
+[transfer]
+    fsckObjects = true
+
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
