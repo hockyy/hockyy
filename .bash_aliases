@@ -1,5 +1,6 @@
 export TCFRAME_HOME=~/tcframe
 alias tcframe=$TCFRAME_HOME/scripts/tcframe
+alias dumpgnometerminal="dconf dump /org/gnome/terminal/"
 
 # Python virtual environment management function
 venv_auto() {
