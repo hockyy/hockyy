@@ -1,3 +1,6 @@
+export TCFRAME_HOME=~/tcframe
+alias tcframe=$TCFRAME_HOME/scripts/tcframe
+
 # Python virtual environment management function
 venv_auto() {
     # Check if 'env' directory exists
@@ -144,7 +147,6 @@ else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
 unset color_prompt force_color_prompt
-eval "$(dircolors -b ~/.dircolors)"
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)
