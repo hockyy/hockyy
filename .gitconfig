@@ -10,6 +10,8 @@
     pager = less -r
     # Make `git rebase` safer on macOS
     trustctime = false
+	packedGitLimit = 512m
+	packedGitWindowSize = 512m
 
 [init]
     defaultBranch = main
@@ -106,7 +108,7 @@
     followTags = true
 
 [pull]
-    rebase = false
+    rebase = true
 
 [merge]
     tool = vimdiff
@@ -146,3 +148,7 @@
     smudge = git-lfs smudge -- %f
     process = git-lfs filter-process
     required = true
+
+[pack]
+	threads = 0
+	windowMemory = 512m
