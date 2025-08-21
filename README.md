@@ -22,5 +22,7 @@
 🏃‍♂️ Runner 🎖️ PB: (3 km 15:27), (10 km 1:06:29) <br>
 📚 Bachelor of Computer Science, Universitas Indonesia<br>
 🖥 Software Engineer, Full-Stack Developer<br>
-Check out: [Miteiru](https://github.com/hockyy/miteiru), an open source Electron video player to learn Japanese!
+Check this out <a href="https://miteiru.hocky.id" 
+   🎥 Miteiru - Learn Languages Through Video 🌍✨
+</a>
 </p>
