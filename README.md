@@ -18,9 +18,6 @@
 🍜 Staying in Hong Kong SAR, China <br>
 🫦 Competitive Programming <br>
 🎹 LLVM MLIR Compiler Engineer <br>
-🎭 Cosplaying, Content Creating, Vtubing <br>
-🏃‍♂️ Runner 🎖️ PB: (3 km 15:27), (10 km 1:06:29) <br>
-📚 Bachelor of Computer Science, Universitas Indonesia<br>
 🖥 Software Engineer, Full-Stack Developer<br>
 Check this out <a href="https://miteiru.hocky.id">🎥 Miteiru - Learn Languages Through Video 🌍✨</a>
 </p>
