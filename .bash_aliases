@@ -1,30 +1,4 @@
 alias cpf='xclip -selection clipboard <'
-export TCFRAME_HOME=~/tcframe
-alias tcframe=$TCFRAME_HOME/scripts/tcframe
-alias dumpgnometerminal="dconf dump /org/gnome/terminal/"
-
-# Python virtual environment management function
-venv_auto() {
-    # Check if 'env' directory exists
-    if [ -d "env" ]; then
-        echo "📦 Virtual environment exists, activating..."
-        source env/bin/activate
-    else
-        echo "🛠️ Creating new virtual environment..."
-        python -m venv env
-        source env/bin/activate
-        pip install --upgrade pip
-        # Check if requirements.txt exists
-        if [ -f "requirements.txt" ]; then
-            echo "📥 Installing requirements..."
-            pip install -r requirements.txt
-        fi
-    fi
-}
-
-# Add an alias for easier use
-alias v='venv_auto'
-
 run() {
   (ulimit -v 4194304; ulimit -s 4194304; ./$1)
 }
@@ -62,17 +36,9 @@ rub() {
     echo "Error: $1 is neither a file nor a directory in the current or parent directories up to $HOME."
 }
 
-alias curb="git rev-parse --symbolic-full-name --abbrev-ref HEAD"
-
-function topfast(){
-    top -u hocky -d 0.2
-}
 alias py="python3"
 alias python="python3"
 alias timestamp="date +%s"
-function search(){
-    grep -n -B 2 -r "$1" .
-}
 export EDITOR=vim
 
 dotToSVG() {
@@ -99,23 +65,62 @@ dotToSVG() {
     rm $TMP_DOT
 }
 
-autotrack() {
-    local current_branch=$(git branch --show-current)
-    local remote=${1:-origin}
-
-    if [ -z "$current_branch" ]; then
-        echo "Error: Not in a git repository or no current branch."
+fetch-pr() {
+    if [ -z "$1" ] || [ -z "$2" ]; then
+        echo "Usage: fetch-pr <REMOTE> <MR_NUMBER>"
+        echo "Example: fetch-pr origin 66"
         return 1
     fi
 
-    echo "Setting upstream for branch '$current_branch' to '$remote/$current_branch'"
-    git branch --set-upstream-to="$remote/$current_branch" "$current_branch"
+    local remote="$1"
+    local mr_number="$2"
+    git fetch "$remote" "pull/${mr_number}/head:pr-${mr_number}"
+}
 
-    if [ $? -eq 0 ]; then
-        echo "Upstream set successfully. Pulling changes..."
-    else
-        echo "Failed to set upstream. Please check your branch and remote names."
+
+fetch-mr() {
+    if [ -z "$1" ] || [ -z "$2" ]; then
+        echo "Usage: fetch-mr <REMOTE> <MR_NUMBER>"
+        echo "Example: fetch-mr origin 66"
+        return 1
     fi
+
+    local remote="$1"
+    local mr_number="$2"
+    git fetch "$remote" "merge-requests/${mr_number}/head:mr-${mr_number}"
+}
+
+addpath() {
+    if [ -z "$1" ]; then
+        echo "Usage: addpath <relative-path> [VARIABLE]"
+        echo "  e.g. addpath ./lib LD_LIBRARY_PATH"
+        return 1
+    fi
+
+    # Convert relative path to absolute
+    local abs_path
+    abs_path=$(realpath "$1" 2>/dev/null)
+
+    if [ $? -ne 0 ] || [ ! -d "$abs_path" ]; then
+        echo "Error: Directory '$1' does not exist"
+        return 1
+    fi
+
+    # Target variable (default: PATH)
+    local var_name="${2:-PATH}"
+    local var_value="${!var_name}"
+
+    # If already present, remove from current position
+    if [[ ":$var_value:" == *":$abs_path:"* ]]; then
+        var_value=$(echo ":$var_value:" | sed "s|:$abs_path:|:|g" | sed 's|^:||;s|:$||')
+        export "$var_name=${abs_path}${var_value:+:$var_value}"
+        echo "↑ Moved to front of $var_name: $abs_path"
+        return 0
+    fi
+
+    # Add to front without confirmation
+    export "$var_name=${abs_path}${var_value:+:$var_value}"
+    echo "✔ Added to $var_name: $abs_path"
 }
 
 # set a fancy prompt (non-color, unless we know we "want" color)
