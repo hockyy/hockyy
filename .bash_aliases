@@ -162,3 +162,7 @@ xterm*|rxvt*)
 *)
     ;;
 esac
+
+test_mlir() {
+  LIT_OPTS="-v --show-unsupported --show-excluded --timeout=50" cmake --build . --target check-mlir
+}
